@@ -1,0 +1,13 @@
+{
+  
+  "name": "quizz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "end.js",
+  "scripts": {
+    "predeploy": "npm run build",
+   "deploy": "gh-pages -d build",
+  },
+  "author": "",
+  "license": "ISC"
+}
