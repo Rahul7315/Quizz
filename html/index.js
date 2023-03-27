@@ -1,5 +1,5 @@
 function start(){
-    return window.location = ('quizz.html');
+    return window.location = ('html/quizz.html');
 }
 function highScore(){
     return window.location = ('html/highScore.html');
