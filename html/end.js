@@ -22,6 +22,6 @@ saveHighScore = e => {
     highScore.sort((a,b) =>b.score - a.score);   
     highScore.splice(5);
     localStorage.setItem('highScores',JSON.stringify(highScore));
-    window.location = ('/../index.html');
+    window.location = ('/../Quizz');
     console.log(highScore);
 };
